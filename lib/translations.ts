@@ -28,10 +28,10 @@ export const translations: Record<Language, Record<string, string>> = {
   },
   kaa: {
     appTitle: 'DocQuery',
-    appSubtitle: 'Hújjetlerińiz haqqında tez juwmaq alıń hám sorawlar beriń.',
+    appSubtitle: 'Hújjetlerińizdiń qısqasha mazmunın alıń hám sorawlar beriń.',
     dragAndDrop: 'Hújjetti usı jerge súyrep álıp keliń',
     orClick: 'yamasa fayldı saylaw ushın basıń (PDF, DOCX, TXT)',
-    summary: 'Juwmaq',
+    summary: 'Mazmunı',
     startOver: 'Qaytadan baslaw',
     askQuestions: 'Sorawlar beriw',
     askAnything: 'Hújjet mazmunı haqqında soraw beriń.',
@@ -40,7 +40,7 @@ export const translations: Record<Language, Record<string, string>> = {
     errorOccurred: 'Qátelik júz berdi',
     tryAgain: 'Qaytadan urınıp kóriń',
     parsingMessage: 'Hújjet analiz etilmekte...',
-    summaryMessage: 'Juwmaq tayarlanbaqta...',
+    summaryMessage: 'Mazmunı tayarlanbaqta...',
     chatMessage: 'Sáwbet baslanbaqta...',
     developedBy: 'Islep shıǵarıwshı: Aybek Jumashev'
   },
