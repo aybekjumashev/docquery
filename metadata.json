@@ -1,0 +1,7 @@
+
+{
+  "name": "AI Document Interrogator",
+  "description": "An application to summarize various documents (PDF, DOCX, XLSX, etc.) and allow users to ask questions about the content using Gemini.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
