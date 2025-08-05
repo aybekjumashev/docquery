@@ -105,8 +105,9 @@ const App: React.FC = () => {
             <div className="w-full max-w-5xl mx-auto flex flex-col flex-grow">
                 <header className="mb-10">
                     <div className="flex justify-between items-center gap-4 mb-4">
-                         <h1 className="text-4xl sm:text-5xl font-extrabold text-brand-text-main tracking-tight">
-                            {currentTranslations.appTitle}
+                        <h1 className="text-4xl sm:text-5xl font-extrabold text-brand-text-main tracking-tight flex items-center gap-3">
+                            <img src="/logo.png" alt="" className="h-12" />
+                            <span>{currentTranslations.appTitle}</span>
                         </h1>
                         <LanguageSelector currentLanguage={language} onLanguageChange={setLanguage} />
                     </div>
@@ -145,13 +146,13 @@ const App: React.FC = () => {
                     )}
                 </main>
 
-                <footer className="text-center mt-auto pt-12 pb-4 text-brand-text-muted text-xs">
+                <footer className="text-center mt-auto pt-12 pb-4 text-gray-700 text-xs">
                      <p>
                         <a 
                             href="https://t.me/aybek_jumashev" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="hover:text-brand-text-main transition-colors"
+                            className="hover:text-gray-500 transition-colors"
                         >
                             {currentTranslations.developedBy}
                         </a>
